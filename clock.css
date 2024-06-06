@@ -5,32 +5,32 @@
 .container{
     width: 700px;
     height: 700px;
-    background-color: rgba(14, 77, 77, 0.5);
-    border: 12px solid black;
-    border-radius: 420px;
+    background-color: rgba(117, 181, 245, 0.5);
+    border: 12px solid rgb(23, 24, 24);
+    border-radius: 50%;
     font-size: 75px;
     display: flex; 
     margin: auto;
 }
  .twelve{
     position: relative;
-    left: 185px;
+    left: 28%;
 }
 
 .six{
     position: relative;
-    left: 290px;
-    top: 615px;
+    left: 42%;
+    top: 90%;
 }
 .three{
     position: relative;
-    left: 660px;
-    top: 295px;
+    left: 95%;
+    top:41%;
 }
 .nine {
     position: relative;
-    left: -61px;
-    top: 301px;
+    left: -10%;
+    top: 41%;
 }
 .middle{
     height: 50px;
@@ -39,7 +39,8 @@
     border-radius: 30px;
     position: relative;
     left: 137px;
-    top: 310px;
+    top: 48%;
+   
 }
 #hour_hand{
    height: 150px;
@@ -47,7 +48,7 @@
    background-color: black;
    position:relative;
    left: 106px;
-   top: 176px;
+   top: 205px;
    transform-origin: bottom;
 }
 #minute_hand{
@@ -56,7 +57,7 @@
     background-color: black;
     position: relative;
     left: 98px;
-    top: 129px;
+    top: 155px;
     transform-origin: bottom;
 }
 #second_hand{
@@ -65,7 +66,7 @@
     background-color: black;
     position: relative;
     left: 92px;
-    top: 84px;
+    top: 105px;
     transform-origin: bottom;
 } 
 #time{
@@ -74,3 +75,4 @@ position: relative;
 top: 65%;
 left: 2%;
 }
+
